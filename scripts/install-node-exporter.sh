@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -Eeuo pipefail
 
-COLLECTOR_IP="${COLLECTOR_IP:-10.10.10.222}"
+COLLECTOR_IP="${COLLECTOR_IP:-10.10.10.224}"
 NODE_PORT="${NODE_PORT:-9100}"
 
 log() {
